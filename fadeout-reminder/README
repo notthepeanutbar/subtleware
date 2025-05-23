@@ -1,0 +1,25 @@
+# Fading Invoice Reminder Script
+
+This script gently fades a webpage’s content over a set period (default 30 days) to signal an unpaid invoice. After the period, the page content is replaced by a polite message requesting payment.
+
+## How it works
+
+- Tracks days elapsed since a defined start date  
+- Reduces page opacity daily  
+- Shows a custom message when time expires
+
+## Usage
+
+1. Adjust the `startDate` in `fade.js` to your project’s invoice date.  
+2. Include the script in your webpage or demo (`index.html`).  
+3. Customize the fallback message if needed.
+
+## Example message
+
+> This website has faded due to an unpaid invoice.  
+> To restore access, please settle your outstanding balance.  
+> For questions or assistance, contact your developer.
+
+## License
+
+MIT License
